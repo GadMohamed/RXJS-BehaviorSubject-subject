@@ -1,0 +1,28 @@
+div:first-of-type{
+  border-bottom: 2px solid tomato;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+p:first-of-type{
+  font-size: 20px;
+  font-weight: 600
+}
+
+p:last-of-type{
+  text-align: center;
+  padding: 10px;
+  background: tomato;
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  font-weight: 600;
+  color:#fff;
+  box-shadow: 0px 5px 8px -2px tomato;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 30px 0;
+}
