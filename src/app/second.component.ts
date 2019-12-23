@@ -2,7 +2,7 @@ import { Component , OnInit } from "@angular/core";
 import { SharedService } from './shared.service';
 
 @Component({
-  selector : "app-hi",
+  selector : "app-second",
   template : `
 <div class="valueparent">
 <p>{{number}}</p>
