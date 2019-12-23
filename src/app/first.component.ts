@@ -19,7 +19,7 @@ align-items: center;
     justify-content: center;
 }`]
 })
-export class HelloComponent implements OnInit  {
+export class FirstComponent implements OnInit  {
 
 number ;
   constructor(private SharedService : SharedService){}

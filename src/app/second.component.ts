@@ -23,7 +23,7 @@ styles : [`p:first-of-type {
 `]
 })
 
-export class HiComponent implements OnInit {
+export class SecondComponent implements OnInit {
   number;
 
   constructor(private SharedService : SharedService){}

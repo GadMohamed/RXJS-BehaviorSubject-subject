@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SharedService } from './shared.service';
-import { HelloComponent } from './hello.component';
-import { HiComponent } from './hi.component';
+import { FirstComponent } from './first.component';
+import { SecondComponent } from './second.component';
 import { ControllersComponent } from './controllers.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ,HiComponent,ControllersComponent],
+  declarations: [ AppComponent, FirstComponent ,SecondComponent,ControllersComponent],
   bootstrap:    [ AppComponent ],
   providers : [SharedService]
 })
